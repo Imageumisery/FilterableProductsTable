@@ -18,7 +18,7 @@ const ProductTable = (props: ProductTableProps) => {
             <tbody>
                 {props.products.map((product) => {
                     return (
-                        <tr key={product.name} className={product.stocked ? "" : "red"}>
+                        <tr key={product.name} className={product.stocked ? "" : "outOfStock"}>
                             <ProductRow product={product} />
                         </tr>
                     );

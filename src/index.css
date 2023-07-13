@@ -39,9 +39,16 @@ body {
 }
 
 h1,
-h2 {
-    font-size: 2.1em;
-    margin-top: 20px;
+h2,
+.search-container,
+.product-table {
+    font-size: 1.6em;
+    margin-top: 28px;
+}
+
+.search {
+    font-size: 1.2em;
+    color: dodgerblue;
 }
 
 button {
@@ -54,23 +61,17 @@ button {
     transition: border-color 0.25s;
 }
 
-.red {
+label {
+    color: #646cff;
+    margin-right: 15px;
+}
+
+.outOfStock {
     color: crimson;
 }
 
-.board-row {
-    margin: 15px 0;
-}
-
-.game {
-    display: flex;
-}
-
-.board {
-    margin-right: 70px;
-}
-
 .title {
+    padding: 10px;
     background-color: rgb(66, 66, 66);
     color: rgba(20 158 202);
     border-radius: 10px;

@@ -24,9 +24,13 @@ const FilterableProductTable = () => {
 
     return (
         <>
-            <h2>Filterable Product table</h2>
-            <Search value={value} handleSearch={handleSearch} />
-            <ProductTable products={getFilteredNames()} />
+            <h2 className="title">Filterable Product table</h2>
+            <div className="search-container">
+                <Search value={value} handleSearch={handleSearch} />
+            </div>
+            <div className="product-table">
+                <ProductTable products={getFilteredNames()} />
+            </div>
         </>
     );
 };

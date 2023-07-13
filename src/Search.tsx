@@ -9,7 +9,7 @@ const Search = ({ value, handleSearch }: SearchProps) => {
 
     return (
         <>
-            <label htmlFor="search">Find your product</label>
+            <label htmlFor="search">Find your product:</label>
             <input type="text" className="search" value={value} onChange={handleSearch} />
         </>
     );
