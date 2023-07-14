@@ -51,6 +51,21 @@ h2,
     color: dodgerblue;
 }
 
+th {
+    min-width: 200px;
+    text-align: left;
+}
+
+td {
+    width: 200px;
+    text-align: left;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
 button {
     border-radius: 8px;
     border: 1px solid transparent;
